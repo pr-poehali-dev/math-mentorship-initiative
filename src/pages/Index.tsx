@@ -79,34 +79,35 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                icon: "AlertCircle",
-                title: "Не понимает математику",
-                description: "Ребёнок не хочет учиться и избегает предмета",
+                icon: "Heart",
+                title: "Не любит учиться",
+                description: "Ребёнок отказывается делать домашние задания",
+              },
+              {
+                icon: "Calculator",
+                title: "Ненавидит математику",
+                description: "При слове 'математика' начинается истерика",
+              },
+              {
+                icon: "FileX",
+                title: "Боится не сдать аттестацию",
+                description: "Тревога за результаты экзаменов и контрольных",
               },
               {
                 icon: "RotateCcw",
-                title: "Занимался с репетиторами",
-                description: "Результата нет, деньги потрачены впустую",
+                title: "Может остаться на второй год",
+                description: "Оценки критически низкие, грозит повтор класса",
               },
               {
-                icon: "Brain",
-                title: "Всё забывает",
-                description: "Даже если вчера знал — сегодня не помнит",
+                icon: "GraduationCap",
+                title: "Не поступит в вуз",
+                description:
+                  "Без математики закрыты все престижные специальности",
               },
               {
-                icon: "BookOpen",
-                title: "Только заучивает",
-                description: "Не умеет думать и решать новые задачи",
-              },
-              {
-                icon: "Frown",
-                title: "Боится ошибок",
-                description: "Теряет мотивацию и уверенность в себе",
-              },
-              {
-                icon: "HelpCircle",
-                title: "Не видит смысла",
-                description: "Родители не могут помочь — ребёнок закрыт",
+                icon: "Clock",
+                title: "Время уходит",
+                description: "Каждый день промедления усугубляет ситуацию",
               },
             ].map((problem, index) => (
               <Card
